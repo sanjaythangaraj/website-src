@@ -73,6 +73,9 @@
                   data-tag="scala">Scala
           </button>
           <button class="tag-button px-4 py-2 bg-gray-200 rounded-full text-sm font-medium hover:bg-gray-300"
+                  data-tag="scala">Typelevel
+          </button>
+          <button class="tag-button px-4 py-2 bg-gray-200 rounded-full text-sm font-medium hover:bg-gray-300"
                   data-tag="kafka">Kafka
           </button>
         </div>
@@ -187,7 +190,7 @@
             </div>
           </div>
 
-          <div class="project-card bg-white rounded-lg shadow p-6" data-tags="scala">
+          <div class="project-card bg-white rounded-lg shadow p-6" data-tags="scala typelevel">
             <a href="https://github.com/sanjaythangaraj/cli-todoapp" target="_blank">
               <img src="images/cli-todoapp.jpg" alt="project screenshot"
                    class="w-full h-48 object-cover rounded-md mb-4">
@@ -212,7 +215,7 @@
             </div>
           </div>
 
-          <div class="project-card bg-white rounded-lg shadow p-6" data-tags="scala kafka">
+          <div class="project-card bg-white rounded-lg shadow p-6" data-tags="scala kafka typelevel">
             <a href="https://github.com/sanjaythangaraj/kafka-fs2-demos" target="_blank">
               <img src="images/kafka-fs2-demos.jpg" alt="project screenshot"
                    class="w-full h-48 object-cover rounded-md mb-4">
@@ -236,6 +239,52 @@
                  class="text-blue-600 hover:underline">GitHub</a>
             </div>
           </div>
+
+          <div class="project-card bg-white rounded-lg shadow p-6" data-tags="scala typelevel">
+            <a href="https://github.com/sanjaythangaraj/http4s-lb" target="_blank">
+              <img src="images/http4s-lb.jpg" alt="project screenshot"
+                   class="w-full h-48 object-cover rounded-md mb-4">
+            </a>
+            <h3 class="text-xl font-semibold mb-2">A Functional Load Balancer with http4s</h3>
+            <p class="text-gray-600 mb-4">An application layer load balancer written with http4s using the Round Robin Algorithm</p>
+            <ul class="list-disc list-inside text-gray-600 mb-4">
+              <li>distribute requests to backend using round robin</li>
+              <li>forward request only to available backends</li>
+              <li>account for backends dying and coming back online with periodic health checks</li>
+            </ul>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Scala</span>
+              <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Cats Effect</span>
+              <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">http4s</span>
+            </div>
+            <div class="flex gap-4">
+              <a href="https://github.com/sanjaythangaraj/http4s-lb" target="_blank"
+                 class="text-blue-600 hover:underline">GitHub</a>
+            </div>
+          </div>
+
+<!--          <div class="project-card bg-white rounded-lg shadow p-6" data-tags="scala">-->
+<!--            <a href="https://github.com/sanjaythangaraj/akka-iot-example" target="_blank">-->
+<!--              <img src="images/http4s-lb.jpg" alt="project screenshot"-->
+<!--                   class="w-full h-48 object-cover rounded-md mb-4">-->
+<!--            </a>-->
+<!--            <h3 class="text-xl font-semibold mb-2">IoT System Example</h3>-->
+<!--            <p class="text-gray-600 mb-4">A simple IoT System built using Akka Typed</p>-->
+<!--            <ul class="list-disc list-inside text-gray-600 mb-4">-->
+<!--              <li>actor-based IoT device management</li>-->
+<!--              <li>unit test for actors</li>-->
+<!--              <li>http4s http api</li>-->
+<!--            </ul>-->
+<!--            <div class="flex flex-wrap gap-2 mb-4">-->
+<!--              <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Scala</span>-->
+<!--              <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Akka</span>-->
+<!--              <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">http4s</span>-->
+<!--            </div>-->
+<!--            <div class="flex gap-4">-->
+<!--              <a href="https://github.com/sanjaythangaraj/akka-iot-example" target="_blank"-->
+<!--                 class="text-blue-600 hover:underline">GitHub</a>-->
+<!--            </div>-->
+<!--          </div>-->
         </div>
       </section>
     </main>
